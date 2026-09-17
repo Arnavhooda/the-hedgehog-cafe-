@@ -22,7 +22,7 @@ const gallery = [
   ["https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1200&q=82", "Layered dessert"],
   ["https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1200&q=82", "Rows of books"],
 ];
-const perks = [[BookOpen, "A book for every mood", "A little library of old favourites and future discoveries."], [Users, "Nooks that feel yours", "Window seats, deep sofas, and tables made for long conversations."], [Coffee, "Comfort in a cup", "Thoughtful coffee, generous plates, and the odd sweet indulgence."], [Music2, "Live, but never loud", "Intimate sessions that make evenings feel softer."]];
+const perks: [typeof BookOpen, string, string][] = [[BookOpen, "A book for every mood", "A little library of old favourites and future discoveries."], [Users, "Nooks that feel yours", "Window seats, deep sofas, and tables made for long conversations."], [Coffee, "Comfort in a cup", "Thoughtful coffee, generous plates, and the odd sweet indulgence."], [Music2, "Live, but never loud", "Intimate sessions that make evenings feel softer."]];
 const reviews = [["The kind of place where an hour with a book becomes an afternoon. Soft music, lovely corners, no rush.", "Aarushi M.", "Quiet-reading regular"], ["The coffee is genuinely good, and the team makes you feel like they remember your usual before you do.", "Kabir S.", "Coffee & breakfast fan"], ["A warm, friendly spot for a catch-up. The pasta and cheesecake made a rainy evening feel very lucky.", "Nimrat K.", "Weekend visitor"]];
 
 function Mark() { return <span aria-hidden="true" className="grid h-9 w-9 place-items-center rounded-full bg-[#19362b] font-serif text-lg text-[#f3cf8c]">♠</span>; }
